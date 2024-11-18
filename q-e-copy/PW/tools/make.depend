@@ -1,0 +1,36 @@
+#####################################################################
+# Automatically generated file - if you notice lines looking like
+# some_file.o: @some_module@ 
+# figure out why "some_module", referenced in "some_file.o", is not 
+# found: check spelling, presence in one of the DEPEND* directories
+# as defined in file "install/makedeps.sh"; if "some_module" is an 
+# external module, add it to the module lists "sysdeps", "libdeps",
+# "cudadeps" defined in "install/makedeps.sh".
+# Finally, from the top QE directory, run "make depend" to regenerate
+# the files - DO NOT EDIT MANUALLY (unless you know what you are doing)
+####################################################################
+cell2ibrav.o : ../../Modules/kind.o
+ev.o : ../../Modules/constants.o
+ev.o : ../../Modules/io_global.o
+ev.o : ../../Modules/kind.o
+ev.o : ../../Modules/lmdif.o
+ev.o : ../../Modules/mp_global.o
+ev.o : ../../Modules/mp_world.o
+ev.o : ../../UtilXlib/mp.o
+ibrav2cell.o : ../../Modules/constants.o
+ibrav2cell.o : ../../Modules/kind.o
+kpoints.o : ../../Modules/cell_base.o
+kpoints.o : ../../Modules/kind.o
+kpoints.o : ../../PW/src/symm_base.o
+rism1d.o : ../../Modules/check_stop.o
+rism1d.o : ../../Modules/command_line_options.o
+rism1d.o : ../../Modules/environment.o
+rism1d.o : ../../Modules/input_parameters.o
+rism1d.o : ../../Modules/io_global.o
+rism1d.o : ../../Modules/mp_global.o
+rism1d.o : ../../Modules/read_input.o
+rism1d.o : ../../Modules/rism1d_facade.o
+rism1d.o : ../../Modules/solvmol.o
+scan_ibrav.o : ../../Modules/constants.o
+scan_ibrav.o : ../../Modules/kind.o
+scan_ibrav.o : ../../Modules/lmdif.o
